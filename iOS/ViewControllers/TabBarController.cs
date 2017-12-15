@@ -8,7 +8,8 @@ namespace AlleGuttaTur.iOS
         public TabBarController(IntPtr handle) : base(handle)
         {
             TabBar.Items[0].Title = "Browse";
-            TabBar.Items[1].Title = "About";
+            TabBar.Items[1].Title = "Menu";
+            TabBar.Items[2].Title = "About";
         }
     }
 }

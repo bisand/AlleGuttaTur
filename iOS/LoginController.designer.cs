@@ -11,19 +11,15 @@ using UIKit;
 
 namespace AlleGuttaTur.iOS
 {
-    [Register ("ItemsViewController")]
-    partial class BrowseViewController
+    [Register ("LoginController")]
+    partial class LoginController
     {
-        [Outlet]
+        [Action ("UIButton3456_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton btnAddItem { get; set; }
+        partial void UIButton3456_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (btnAddItem != null) {
-                btnAddItem.Dispose ();
-                btnAddItem = null;
-            }
         }
     }
 }
